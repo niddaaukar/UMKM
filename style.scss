@@ -1,0 +1,212 @@
+﻿$color_1: green;
+$color_2: white;
+$color_3: black;
+$color_4: #009b4c;
+$font-family_1: "Palatino";
+$background-color_1: #ffffff;
+$background-color_2: #009b4c;
+$background-color_3: white;
+$background-color_4: #a8cd9f;
+
+.navbar {
+  background-color: $background-color_1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+html {
+  scroll-padding-top: 70px;
+}
+main {
+  padding-top: 70px;
+}
+p {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+h1 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+h2 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+h3 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+h4 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+h5 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+form {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+iframe {
+  opacity: 0;
+  transition: opacity 2s ease;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  border: 0;
+}
+a {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+.navbar-brand {
+  img {
+    height: 50px;
+  }
+}
+.nav-link {
+  font-size: large;
+}
+.navbar-nav {
+  .nav-item {
+    &:hover {
+      .nav-link {
+        color: $color_1;
+      }
+    }
+  }
+}
+.carousel-item {
+  height: 91vh;
+}
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+.carousel-caption {
+  font-family: $font-family_1;
+  top: 40%;
+  h4 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  h5 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+  p {
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 1.9;
+  }
+  a {
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 30px;
+    display: inline-block;
+    background: #ffffff;
+    margin-top: 25px;
+  }
+}
+.border-top {
+  border: #009b4c solid 2px;
+  width: 100%;
+}
+.buttonKategori {
+  &:active {
+    background-color: $background-color_2 !important;
+    color: $color_2 !important;
+  }
+  &:focus {
+    background-color: $background-color_2 !important;
+    color: $color_2 !important;
+  }
+  &:hover {
+    background-color: $background-color_2 !important;
+    color: $color_2 !important;
+  }
+  background-color: $background-color_3 !important;
+  color: $color_3 !important;
+}
+.buttonKategori.active {
+  background-color: $background-color_2 !important;
+  color: $color_2 !important;
+}
+.card {
+  border: #009b4c solid 1px;
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+.zoomed {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+.social {
+  width: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rowkontak {
+  padding: 20px;
+}
+.kontakkami {
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px;
+}
+#pesan {
+  height: 120px;
+}
+.footer {
+  background-color: $background-color_2;
+  color: $color_2;
+  text-decoration: none;
+}
+#linkcepat {
+  text-decoration: none;
+  color: $color_2;
+}
+.custom-icon {
+  font-size: 80px;
+  color: $color_4;
+}
+.copyright {
+  background-color: $background-color_4;
+  justify-content: space-between;
+}
+.copyright2 {
+  color: $color_3;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    .nav-item {
+      border-bottom: 1px solid #009b4c;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    top: 30%;
+  }
+}
+@media (max-width: 375px) {
+  .carousel-caption {
+    top: 20%;
+  }
+}

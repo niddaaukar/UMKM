@@ -1,0 +1,226 @@
+.navbar {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+main {
+  padding-top: 70px;
+}
+
+p {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+h1 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+h2 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+h3 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+h4 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+h5 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+form {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+iframe {
+  opacity: 0;
+  transition: opacity 2s ease;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  border: 0;
+}
+
+a {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: green;
+}
+
+.carousel-item {
+  height: 91vh;
+}
+
+.c-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.carousel-caption {
+  font-family: "Palatino";
+  top: 40%;
+}
+.carousel-caption h4 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.carousel-caption h5 {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+.carousel-caption p {
+  width: 100%;
+  margin: auto;
+  font-size: 24px;
+  line-height: 1.9;
+}
+.carousel-caption a {
+  text-decoration: none;
+  font-size: large;
+  padding: 10px 30px;
+  display: inline-block;
+  background: #ffffff;
+  margin-top: 25px;
+}
+
+.border-top {
+  border: #009b4c solid 2px;
+  width: 100%;
+}
+
+.buttonKategori {
+  background-color: white !important;
+  color: black !important;
+}
+.buttonKategori:active {
+  background-color: #009b4c !important;
+  color: white !important;
+}
+.buttonKategori:focus {
+  background-color: #009b4c !important;
+  color: white !important;
+}
+.buttonKategori:hover {
+  background-color: #009b4c !important;
+  color: white !important;
+}
+
+.buttonKategori.active {
+  background-color: #009b4c !important;
+  color: white !important;
+}
+
+.card {
+  border: #009b4c solid 1px;
+}
+.card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.zoomed {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+
+.social {
+  width: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowkontak {
+  padding: 20px;
+}
+
+.kontakkami {
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#pesan {
+  height: 120px;
+}
+
+.footer {
+  background-color: #009b4c;
+  color: white;
+  text-decoration: none;
+}
+
+#linkcepat {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-icon {
+  font-size: 80px;
+  color: #009b4c;
+}
+
+.copyright {
+  background-color: #a8cd9f;
+  justify-content: space-between;
+}
+
+.copyright2 {
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse .nav-item {
+    border-bottom: 1px solid #009b4c;
+  }
+  .navbar-collapse .nav-item:last-child {
+    border-right: none;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    top: 30%;
+  }
+}
+@media (max-width: 375px) {
+  .carousel-caption {
+    top: 20%;
+  }
+}/*# sourceMappingURL=style.css.map */
